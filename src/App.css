@@ -1,0 +1,24 @@
+.App {
+    text-align: center;
+  }
+
+table {
+    border: none;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+table thead th {
+    background-color: #02111B;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody td {
+    border-bottom: solid 1px #02111B;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}

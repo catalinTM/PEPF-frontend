@@ -1,0 +1,189 @@
+.formular {
+	width: 100%;  
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: linear-gradient(to left, #D9DBF1, #D0CDD7);
+  }
+
+label {
+	display: block;
+	margin-left: 10px;
+}
+
+label > span {
+	float: left;
+	width: 200px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+label > select,
+label > input {
+	border-radius: 3px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+	outline: none;
+	
+	padding: 5px 8px 5px 8px;
+	
+	background: #FFEFF6;
+}
+
+fieldset {
+
+	/*width: 500px*/
+	background: #FBFBFF;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 42px 55px 45px 55px;
+}
+
+
+
+.sectiuni {
+	font-size: 1.3em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+option {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #E5E1EE;
+}
+
+input, checkbox, select {
+	background-color: #E5E1EE;
+}
+
+
+.numeric {
+	text-align-last: center;
+}
+
+
+
+.restrictii {
+	margin-bottom: 20px;
+}
+
+.durata {
+	text-align-last: right;
+	width: 50px;
+}
+
+
+.weekDays-selector input {
+  display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 6px;
+  background: #dddddd;
+  height: 40px;
+  width: 50px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  	background: #2AD705;
+	  color: #ffffff;
+	  user-select: none;
+}
+
+.rooms-selector input {
+	display: none!important;
+}
+
+.rooms-selector input[type=checkbox] + label {
+	display: inline-block;
+	border-radius: 6px;
+	background: #dddddd;
+	height: 40px;
+	width: 50px;
+	margin-right: 3px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.rooms-selector input[type=checkbox]:checked + label {
+	background: #2AD705;
+	color: #ffffff;
+	user-select: none;
+  }
+
+
+.weeks-selector input {
+  display: none!important;
+}
+
+.weeks-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 6px;
+  background: #dddddd;
+  height: 40px;
+  width: 50px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.weeks-selector input[type=checkbox]:checked + label {
+  	background: #2AD705;
+	  color: #ffffff;
+	  user-select: none;
+}
+
+
+.groups-selector input {
+	display: none!important;
+}
+
+.groups-selector input[type=checkbox] + label {
+	display: inline-block;
+	border-radius: 6px;
+	background: #dddddd;
+	height: 40px;
+	width: 50px;
+	margin-right: 3px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+  
+.groups-selector input[type=checkbox]:checked + label {
+		background: #2AD705;
+		color: #ffffff;
+		user-select: none;
+}
+
+.time-picker {
+	display: inline-block;
+	padding: 40px;
+	margin-left: 80px;
+
+}
+
+.time-picker label {
+	width: 100px;
+}
+
+.button {
+	width: 100%;
+}
